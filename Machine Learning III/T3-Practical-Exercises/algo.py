@@ -31,7 +31,7 @@ labelList = range(1, 6)
 
 plt.figure(figsize=(10, 7))
 dendrogram(linked, orientation="top", labels=labelList, distance_sort="descending", show_leaf_counts=True)
-pml.savefig("agglom_demo_dendrogram.pdf", dpi=300)
+plt.savefig("agglom_demo_dendrogram.pdf", dpi=300)
 
 plt.show()
      
